@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+== [target 85129fd teardown] fm-spawn.sh lv97086 <subhome> codex --secondmate (pane mode=busyread, busy 2s)
+spawn rc=0 after 2s
+  spawn: warning: secondmate lv97086 sync skipped before launch: primary default-branch commit cannot be resolved
+staged file: -rw------- vytautas size=    1384 bytes; task root: drwx------
+--- pane capture (window fm-lv97086) ---
+export GOTMPDIR=/tmp/fm-lv97086/gotmp
+. '/tmp/fm-lv97086/launch.sh'
+bash-3.2$ . '/tmp/fm-lv97086/launch.sh'
+FAKE-CODEX-STARTED
+❯ 
+--- result ---
+AGENT STARTED: fake codex ran with argc=2; argv bytes=    7989
+pending command-line bytes in pane (last line of joined capture):        5
+pane foreground: sleep
+--- teardown ---
+teardown rc=0
+  teardown: ●  watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+  teardown: ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  teardown: teardown lv97086 complete (window firstmate:fm-lv97086, worktree /private/tmp/fm-live-4559.jiIkv6/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segmen
+task temp root /tmp/fm-lv97086 removed (launch.sh gone)

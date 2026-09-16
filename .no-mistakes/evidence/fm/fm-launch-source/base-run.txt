@@ -1,0 +1,14 @@
+== [base 9f8ad95] fm-spawn.sh lv81801 <subhome> codex --secondmate (pane shell starts after 4s)
+spawn rc=0 after 4s
+  spawn: spawned lv81801 harness=codex kind=secondmate mode=secondmate yolo=off window=firstmate:fm-lv81801 worktree=/private/tmp/fm-live-4559.asBRwd/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/sub
+staged file: none (launch typed directly)
+--- pane capture (window fm-lv81801) ---
+export GOTMPDIR=/tmp/fm-lv81801/gotmp
+FM_ROOT_OVERRIDE= FM_STATE_OVERRIDE= FM_DATA_OVERRIDE= FM_PROJECTS_OVERRIDE= FM_CONFIG_OVERRIDE= FM_PUBLIC_FOLLOWUP_PRIMARY_HOME='/private/tmp/fm-live-4559.asBRwd/home' FM_HOME='/private/tmp/fm-live-4559.asBRwd/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-
+bash-3.2$ export GOTMPDIR=/tmp/fm-lv81801/gotmp
+bash-3.2$ FM_ROOT_OVERRIDE= FM_STATE_OVERRIDE= FM_DATA_OVERRIDE= FM_PROJECTS_OVERRIDE= FM_CONFIG_OVERRIDE= FM_PUBLIC_FOLLOWUP_PRIMARY_HOME='/private/tmp/fm-live-4559.asBRwd/home' FM_HOME='/private/tmp/fm-live-4559.asBRwd/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-second
+FAKE-CODEX-STARTED
+❯ 
+--- result ---
+AGENT STARTED: fake codex ran with argc=2; argv bytes=    7989
+pane foreground: sleep

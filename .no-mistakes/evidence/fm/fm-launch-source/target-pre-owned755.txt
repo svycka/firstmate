@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+pre-planted: drwxr-xr-x /tmp/fm-lv95293
+== [target 85129fd PRE=owned755] fm-spawn.sh lv95293 <subhome> codex --secondmate (pane mode=busyread, busy 2s)
+spawn rc=0 after 2s
+  spawn: warning: secondmate lv95293 sync skipped before launch: primary default-branch commit cannot be resolved
+staged file: -rw------- vytautas size=    1384 bytes; task root: drwx------
+--- pane capture (window fm-lv95293) ---
+export GOTMPDIR=/tmp/fm-lv95293/gotmp
+. '/tmp/fm-lv95293/launch.sh'
+bash-3.2$ . '/tmp/fm-lv95293/launch.sh'
+FAKE-CODEX-STARTED
+❯ 
+--- result ---
+AGENT STARTED: fake codex ran with argc=2; argv bytes=    7989
+pending command-line bytes in pane (last line of joined capture):        5
+pane foreground: sleep

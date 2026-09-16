@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+pre-planted: drwxrwxrwx /tmp/fm-lv91424
+== [target 85129fd PRE=world] fm-spawn.sh lv91424 <subhome> codex --secondmate (pane mode=busyread, busy 2s)
+spawn rc=1 after 1s
+  spawn: warning: secondmate lv91424 sync skipped before launch: primary default-branch commit cannot be resolved
+  spawn: error: task temp root /tmp/fm-lv91424 already exists and is not a private directory owned by this user; refusing to stage the launch command there; inspect and remove it, then retry
+staged file: none (launch typed directly)
+--- pane capture (window fm-lv91424) ---
+--- result ---
+AGENT DID NOT START
+pending command-line bytes in pane (last line of joined capture):        0
+pane foreground: zsh

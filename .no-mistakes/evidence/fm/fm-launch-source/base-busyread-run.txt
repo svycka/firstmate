@@ -1,0 +1,12 @@
+== [base 9f8ad95] fm-spawn.sh lv87479 <subhome> codex --secondmate (pane mode=busyread, busy 6s)
+spawn rc=0 after 2s
+  spawn: spawned lv87479 harness=codex kind=secondmate mode=secondmate yolo=off window=firstmate:fm-lv87479 worktree=/private/tmp/fm-live-4559.s5pPfr/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/sub
+staged file: none (launch typed directly)
+--- pane capture (window fm-lv87479) ---
+export GOTMPDIR=/tmp/fm-lv87479/gotmp
+FM_ROOT_OVERRIDE= FM_STATE_OVERRIDE= FM_DATA_OVERRIDE= FM_PROJECTS_OVERRIDE= FM_CONFIG_OVERRIDE= FM_PUBLIC_FOLLOWUP_PRIMARY_HOME='/private/tmp/fm-live-4559.s5pPfr/home' FM_HOME='/private/tmp/fm-live-4559.s5pPfr/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-
+bash-3.2$ FM_ROOT_OVERRIDE= FM_STATE_OVERRIDE= FM_DATA_OVERRIDE= FM_PROJECTS_OVERRIDE= FM_CONFIG_OVERRIDE= FM_PUBLIC_FOLLOWUP_PRIMARY_HOME='/private/tmp/fm-live-4559.s5pPfr/home' FM_HOME='/private/tmp/fm-live-4559.s5pPfr/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-second
+--- result ---
+AGENT DID NOT START
+pending command-line bytes in pane (last line of joined capture):     1035
+pane foreground: bash

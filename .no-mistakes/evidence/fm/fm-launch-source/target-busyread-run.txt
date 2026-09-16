@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+== [target 85129fd] fm-spawn.sh lv89750 <subhome> codex --secondmate (pane mode=busyread, busy 6s)
+spawn rc=0 after 2s
+  spawn: warning: secondmate lv89750 sync skipped before launch: primary default-branch commit cannot be resolved
+  spawn: spawned lv89750 harness=codex kind=secondmate mode=secondmate yolo=off window=firstmate:fm-lv89750 worktree=/private/tmp/fm-live-4559.VhJg4S/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-long-secondmate-home-path-segment-/sub
+staged file: -rw------- vytautas size=    1384 bytes; task root: drwx------
+--- pane capture (window fm-lv89750) ---
+export GOTMPDIR=/tmp/fm-lv89750/gotmp
+. '/tmp/fm-lv89750/launch.sh'
+bash-3.2$ . '/tmp/fm-lv89750/launch.sh'
+FAKE-CODEX-STARTED
+❯ 
+--- result ---
+AGENT STARTED: fake codex ran with argc=2; argv bytes=    7989
+pending command-line bytes in pane (last line of joined capture):        5
+pane foreground: sleep

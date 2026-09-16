@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+pre-planted: symlink /tmp/fm-lv93273 -> /private/tmp/fm-live-4559.giV6L2/attacker
+== [target 85129fd PRE=symlink] fm-spawn.sh lv93273 <subhome> codex --secondmate (pane mode=busyread, busy 2s)
+spawn rc=1 after 1s
+  spawn: warning: secondmate lv93273 sync skipped before launch: primary default-branch commit cannot be resolved
+  spawn: error: task temp root /tmp/fm-lv93273 already exists and is not a private directory owned by this user; refusing to stage the launch command there; inspect and remove it, then retry
+staged file: none (launch typed directly)
+--- pane capture (window fm-lv93273) ---
+--- result ---
+AGENT DID NOT START
+pending command-line bytes in pane (last line of joined capture):        0
+pane foreground: zsh
+attacker dir contents: []
