@@ -1,0 +1,5 @@
+wait_for_exit: owned pid 94527 exceeded 100 polls; sending TERM
+94527 94427 S    bash /Users/vytautas/.no-mistakes/worktrees/2a70e26dbcd0/01M4ASCCMMZ7FCHST07Z85A8A6/bin/fm-watch.sh
+wait_for_exit: owned pid 94527 survived TERM; sending KILL
+not ok - TERM did not stop a watcher blocked inside a poll
+FM_TEST_ONLY=test_term_stops_a_watcher_blocked_inside_a_poll bash   0.92s user 1.75s system 11% cpu 22.748 total

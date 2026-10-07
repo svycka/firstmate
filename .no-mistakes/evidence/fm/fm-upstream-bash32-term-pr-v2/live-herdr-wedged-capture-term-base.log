@@ -1,0 +1,13 @@
+== BASE 53b5bc1: same real watcher setup, lab Herdr server SIGSTOPped
+20120 19503 19503 SN   /bin/bash bin/fm-watch.sh
+20611 19503 20120 SN   /bin/bash bin/fm-watch.sh
+-- watcher alive 10s after TERM: YES (waited 17.070s)
+-- lock: still-held
+-- process tree (base watcher pid 20120):
+  PID  PGID  PPID STAT COMMAND
+20120 19503     1 SN   /bin/bash bin/fm-watch.sh
+20611 19503 20120 SN   /bin/bash bin/fm-watch.sh
+1451 herdr server --session fm-lab-term32-1360-17594
+20628 herdr status --json --session fm-lab-term32-1360-17594
+-- after SIGCONT of lab server: base watcher alive: no
+-- watch.out:

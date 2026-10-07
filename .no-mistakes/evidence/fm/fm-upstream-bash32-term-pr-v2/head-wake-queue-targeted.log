@@ -1,0 +1,4 @@
+ok - TERM stops a watcher blocked in the drain-ring idle capture and runs its cleanup
+ok - a proven-idle leftover row is rung so the child home can drain without a parent alarm
+ok - busy panes defer without a ring and unknown panes keep the parent alarm
+bash tests/.nm-only-wake.test.sh  2.71s user 4.15s system 82% cpu 8.283 total

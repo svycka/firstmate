@@ -1,0 +1,25 @@
+== HEAD a2751f5: real watcher (/bin/bash 3.2.57(1)-release) on Herdr lab pane fm-lab-term32-1360-17594:w1:p1, lab server SIGSTOPped
+-- before TERM:
+ 1451  1358  1440 T    herdr server --session fm-lab-term32-1360-17594
+15223 14576     1 SN   /bin/bash bin/fm-watch.sh
+15718 15707 15717 SN   herdr status --json --session fm-lab-term32-1360-17594
+15223 14576     1 SN   /bin/bash bin/fm-watch.sh
+15707 15707 15223 SN   /bin/bash bin/fm-watch.sh
+15714 15707 15707 SN   /bin/bash bin/fm-watch.sh
+15715 15707 15714 SN   /bin/bash bin/fm-watch.sh
+15716 15707 15714 SN   jq -r .server.running // false
+15717 15707 15715 SN   /bin/bash bin/fm-watch.sh
+15718 15707 15717 SN   herdr status --json --session fm-lab-term32-1360-17594
+-- lock present: fm-home
+pid
+pid-identity
+watcher-path
+-- watcher alive after TERM: no; exit latency: .256s
+-- leftover processes in capture group 15707 / herdr status for lab: none
+-- lock after: released
+-- capture temp files left: 0
+-- watcher-down marker:
+pending:downtime:6237.1791363730.9tMlp6
+
+-- watch.out:
+bin/fm-watch.sh: line 2114: 15707 Terminated: 15          fm_backend_capture "$@" < /dev/null > "$FM_CAPTURE_OUTPUT"

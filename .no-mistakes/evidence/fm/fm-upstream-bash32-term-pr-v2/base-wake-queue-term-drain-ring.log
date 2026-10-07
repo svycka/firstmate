@@ -1,0 +1,2 @@
+not ok - a watcher stopped in the drain-ring idle capture left that capture running
+bash tests/.nm-only-wake.test.sh  0.79s user 1.13s system 95% cpu 2.013 total
